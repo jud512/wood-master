@@ -1,0 +1,39 @@
+.feature-container__feature {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem;   
+}
+
+.feature-container__feature-title {
+    
+}
+
+.feature-container__feature-title h1{
+    font-family: var(--font-family-new);
+    color: wheat;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.5rem;
+}
+
+.feature-container__feature-title div{
+    width:  65px;
+    height: 3px;
+    background: peru;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    margin-bottom: 0.3rem;
+}
+
+.feature-container__feature-text {
+    
+}
+
+.feature-container__feature-text p{
+    color: bisque;
+    font-weight: normal;
+    
+}

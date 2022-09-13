@@ -1,0 +1,100 @@
+.about {
+    padding: 2rem;
+    
+/* ff 3.6+ */
+    background: -moz-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5B3E2C', endColorstr='#523726', GradientType=0);
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+}
+
+.about-heading {
+    margin: 3rem 0 2rem;
+}
+
+.about-heading h1  {
+    font-size: 34px;
+    font-weight: 600;    
+    font-family: var(--font-family-new);
+    line-height: 45px;
+    max-width: 510px;
+    color: wheat;
+    
+}
+
+.about-heading p {
+    font-family: var(--font-family-new);
+    font-weight: normal;
+    font-size: 20px;
+    color: whitesmoke;
+    padding-top: 2rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.about-container {
+    display: flex;
+    min-width: 20px;
+}
+
+.about-container h1 {
+    font-family: var(--font-family-new);
+}
+
+.about-container p{
+    font-family: var(--font-family-new);
+    color: white;
+    letter-spacing: 1.5px;
+    line-height: 25px;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    .about-container {
+            flex-direction: column;
+            margin-right: 3rem;
+        }
+}
+
+@media screen and (max-width: 650px) {
+    .about {
+        padding: 1rem 0.8rem;
+        
+    }
+
+    .about-container{
+        flex-direction: column;
+        margin-right: 3rem;
+    }
+
+    .about-heading h1 {
+        font-size: 28px;
+    }
+
+    .about-heading p {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .about-container h1 {
+        font-size: 24px;
+    }
+
+    .about-container p {
+        font-size: 15px;
+    }
+}
+

@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* inria-sans-regular - latin */
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inspiration&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200&display=swap');
+:root {
+  --font-family-h: 'Inspiration', cursive;
+  --font-family-text: 'Cambria', sans-serif;
+  --font-family-main: 'Jacques Francois';
+  --font-family-new: 'Libre Franklin',  sans-serif;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  --color-gray: #D2D0CA;
+  --color-bg-dark: #b08968;
+  --color-text: #211D1A;
+  --transition: all 0.6s linear;
+  --transition-long: all 2s linear;
 }

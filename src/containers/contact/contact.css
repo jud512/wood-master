@@ -1,0 +1,85 @@
+.contact {
+    /* ff 3.6+ */
+        background: -moz-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+    
+        /* safari 5.1+,chrome 10+ */
+        background: -webkit-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+    
+        /* opera 11.10+ */
+        background: -o-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+    
+        /* ie 6-9 */
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5B3E2C', endColorstr='#523726', GradientType=0);
+    
+        /* ie 10+ */
+        background: -ms-linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+    
+        /* global 94%+ browsers support */
+        background: linear-gradient(90deg, rgba(82, 55, 38, 1) 0%, rgba(91, 62, 44, 1) 100%);
+
+        padding-bottom: 1rem;
+    }
+
+.contact-heading h1 {
+    font-size: 34px;
+        font-weight: 500;
+        font-family: var(--font-family-new);
+        letter-spacing: 1.5px;
+        line-height: 50px;
+        max-width: 510px;
+        color: wheat;
+}
+
+.contact-container p {
+        font-family: var(--font-family-new);
+        
+        font-size: 20px;
+        color: whitesmoke;
+        padding-top: 1rem;
+        line-height: 15px;
+        letter-spacing: 0.4px;
+}
+
+.contact-container p:last-child {
+    text-align: center;
+    line-height: 20px;
+    font-size: 0.8rem;
+}
+
+
+@media screen and (max-width: 550px) {
+    .contact-heading h1 {
+            font-size: 25px;
+            line-height: 25px;
+        }
+    
+        .contact-container p {
+            font-size: 15px;
+            line-height: 13px;
+        }
+    
+        .contact-container p:last-child {
+            font-size: 10px;
+            line-height: 12px;
+        }
+}
+
+@media screen and (max-width: 300px) {
+    .contact {
+        padding-left: 0.5rem;
+    }
+
+    .contact-heading h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .contact-container p {
+        font-size: 15px;
+    }
+
+    .contact-container p:last-child {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
